@@ -1,0 +1,9 @@
+
+def quicksortBinArray(arr):
+    pivot = 1
+    previous = 0
+    for i in range(len(arr)):
+        if arr[i] < pivot:
+            arr[i], arr[previous] = arr[previous], arr[i]
+            previous += 1
+    return arr
