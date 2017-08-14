@@ -47,6 +47,15 @@ Temporary Items
 .apdisk
 
 # Visual Studio project files (Really only want the .cpp and .h files)
+*.ico
+*.rc
+*.vcxproj
+*.filters
+*.sln
+*.ipch
+*.suo
+*.db
+*.opendb
 
 
 
